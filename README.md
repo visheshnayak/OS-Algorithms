@@ -2,4 +2,5 @@
 All the algorithms of OS managements.
 
 This repository as of 5 september 2015 contains
-Nothing.
+
+1.  fcfs.c  - Algorithm for FCFS process management.
