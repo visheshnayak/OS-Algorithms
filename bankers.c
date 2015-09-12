@@ -129,10 +129,14 @@ void banker(void)
 					if( count == n )
 						flag = 1;
 				}
+				
 				if ( prevcount == count )	//For deadlock detection
 				{
+					if ( check[n-1] = 1 )
+						exit(1);
+					
 					printf("\nDeadlock has been encountered!!! Exiting...\n");
-					exit(1);
+					exit(2);
 				}
 			}
 		}
